@@ -12,3 +12,5 @@
 - [Lab 11](Lab11) - Heaps
 - [Lab 12](Lab12) - Graph traversal
 - [Lab 13](Lab13(Tries)) - Tries (Auxiliary)
+- [Lab Test 1](Labtest1)
+- [Lab Test 2](Labtest2)
