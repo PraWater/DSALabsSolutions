@@ -76,7 +76,7 @@ void min_heapify(Heap h, int index) {
     int temp = h->data[index];
     h->data[index] = h->data[smallest];
     h->data[smallest] = temp;
-    max_heapify(h, smallest);
+    min_heapify(h, smallest);
   }
 }
 
@@ -99,7 +99,7 @@ Heap build_max_heap(int *arr, int n) {
   h->depth = y;
   for (int i = 0; i < n; ++i)
     ans[i] = arr[i];
-  for (int i = x - 1; i >= 0; --i)
+  for (int i = n - 1; i >= 0; --i)
     max_heapify(h, i);
   return h;
 }
